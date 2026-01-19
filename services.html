@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Elegance Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Ashton<span>Sounds</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="sound.html">Sound Hire</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section-padding" style="background: var(--secondary-color); text-align: center;">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p style="color: var(--text-muted);">Comprehensive solutions for all your event production needs.</p>
+        </div>
+    </section>
+
+    <!-- Services Detailed List -->
+    <section class="section-padding">
+        <div class="container">
+            
+            <!-- Service item -->
+            <div class="about-grid" style="margin-bottom: 80px;">
+                <div class="about-text">
+                    <h2 class="gold-text">Event Management</h2>
+                    <p>From the initial concept to the final cleanup, we handle every aspect of your event planning. We coordinate vendors, manage timelines, and ensure everything runs smoothly so you can be a guest at your own event.</p>
+                    <ul style="margin-top: 20px; list-style: disc; padding-left: 20px; color: var(--text-muted);">
+                        <li>Wedding Planning & Coordination</li>
+                        <li>Corporate Product Promotions</li>
+                        <li>Company Adverts & Launches</li>
+                        <li>Graduation Parties</li>
+                    </ul>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1519225468359-2961d5a999fc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Event Management">
+                </div>
+            </div>
+
+            <!-- Service item (Reversed) -->
+            <div class="about-grid" style="margin-bottom: 80px;">
+                <div class="about-img order-md-2"> <!-- order-md-2 is a conceptual class, handled by flex/grid usually or just swapping html order for simplicity if not using complex classes -->
+                    <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Entertainment">
+                </div>
+                <div class="about-text order-md-1">
+                    <h2 class="gold-text">Entertainment (MC & DJ)</h2>
+                    <p>The right entertainment makes or breaks an event. Our professional MCs know how to read the crowd and keep the program flowing effortlessly, while our DJs mix the perfect playlist to get everyone on the dance floor.</p>
+                    <br>
+                    <a href="entertainment.html" class="btn-outline">Learn More about Entertainment</a>
+                </div>
+            </div>
+
+            <!-- Service item -->
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="gold-text">Sound Systems for Hire</h2>
+                    <p>We provide high-quality sound reinforcement for events of all sizes. Whether you need a simple PA system for a funeral service or a full concert rig for a product launch, we have the gear and the technicians to deliver crystal clear audio.</p>
+                    <br>
+                    <a href="sound.html" class="btn-outline">View Sound Packages</a>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1525204732168-d6c41b8a5364?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Sound System">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Ashton Sounds</h4>
+                    <p style="color: var(--text-muted);">Making every occasion special with professional management and entertainment.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><a href="tel:0724850033">0724 850033</a></li>
+                        <li><a href="#">Maimahiu, near Total Petrol Station</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Ashton Sounds. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
